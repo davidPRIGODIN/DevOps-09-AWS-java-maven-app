@@ -3,7 +3,7 @@
 library identifier: 'jenkins-shared-library@master', retriever: modernSCM(
     [$class: 'GitSCMSource',
     remote: 'https://github.com/davidPRIGODIN/DevOps-09-AWS-jenkins-shared-library.git',
-    credentialsID: 'github-credentials'
+    credentialsId: 'github-credentials'
     ]
 )
 
